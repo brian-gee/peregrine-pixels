@@ -1,7 +1,7 @@
-import { FacebookIcon } from "../assets/icons/FacebookIcon";
-import { InstagramIcon } from "../assets/icons/InstagramIcon";
-import { TailcastLogo } from "../assets/logos/TailcastLogo";
-import { TwitterIcon } from "../assets/icons/TwitterIcon";
+import { FacebookIcon } from '../assets/icons/FacebookIcon';
+import { InstagramIcon } from '../assets/icons/InstagramIcon';
+import { TailcastLogo } from '../assets/logos/TailcastLogo';
+import { TwitterIcon } from '../assets/icons/TwitterIcon';
 
 export const Footer = () => {
   return (
@@ -20,33 +20,29 @@ export const Footer = () => {
               </div>
               <p className="mb-10 mt-4 sm:w-[22rem] lg:w-[20rem] xl:w-[24rem] text-gray-400 leading-loose text-center lg:text-left mx-auto lg:mx-0">
                 Dashboard images were made using free Dark Admin dashboard that
-                you can find 
+                you can find
                 <a
                   href="https://bootstrapious.com/p/bootstrap-4-dark-admin"
                   target="_blank"
                   className="text-gray-100 ml-1.5 "
-                  aria-label="DarkAdmin"
-                >
-                   here.
+                  aria-label="DarkAdmin">
+                  here.
                 </a>
               </p>
               <div className="w-36 mx-auto lg:mx-0">
                 <a
                   className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
-                  href="#"
-                >
+                  href="#">
                   <FacebookIcon />
                 </a>
                 <a
                   className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
-                  href="#"
-                >
+                  href="#">
                   <TwitterIcon />
                 </a>
                 <a
                   className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
-                  href="#"
-                >
+                  href="#">
                   <InstagramIcon />
                 </a>
               </div>
@@ -56,22 +52,34 @@ export const Footer = () => {
                 <h3 className="mb-6 text-2xl font-bold text-white">Products</h3>
                 <ul>
                   <li className="mb-4">
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
+                    <a
+                      className="text-gray-400 hover:text-gray-300"
+                      href="#"
+                      aria-label="">
                       Services
                     </a>
                   </li>
                   <li className="mb-4">
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
+                    <a
+                      className="text-gray-400 hover:text-gray-300"
+                      href="#"
+                      aria-label="">
                       About Us
                     </a>
                   </li>
                   <li className="mb-4">
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
+                    <a
+                      className="text-gray-400 hover:text-gray-300"
+                      href="#"
+                      aria-label="">
                       News and Stories
                     </a>
                   </li>
                   <li>
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
+                    <a
+                      className="text-gray-400 hover:text-gray-300"
+                      href="#"
+                      aria-label="">
                       Roadmap
                     </a>
                   </li>
@@ -83,32 +91,50 @@ export const Footer = () => {
                 </h3>
                 <ul>
                   <li className="mb-4">
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
+                    <a
+                      className="text-gray-400 hover:text-gray-300"
+                      href="#"
+                      aria-label="">
                       Organization Team
                     </a>
                   </li>
                   <li className="mb-4">
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
+                    <a
+                      className="text-gray-400 hover:text-gray-300"
+                      href="#"
+                      aria-label="">
                       Our Journeys
                     </a>
                   </li>
                   <li className="mb-4">
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
+                    <a
+                      className="text-gray-400 hover:text-gray-300"
+                      href="#"
+                      aria-label="">
                       Pricing Plans
                     </a>
                   </li>
                   <li className="mb-4">
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
+                    <a
+                      className="text-gray-400 hover:text-gray-300"
+                      href="#"
+                      aria-label="">
                       Roadmap
                     </a>
                   </li>
                   <li className="mb-4">
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
+                    <a
+                      className="text-gray-400 hover:text-gray-300"
+                      href="#"
+                      aria-label="">
                       Terms &amp; Conditions
                     </a>
                   </li>
                   <li>
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
+                    <a
+                      className="text-gray-400 hover:text-gray-300"
+                      href="#"
+                      aria-label="">
                       Privacy Policy
                     </a>
                   </li>
@@ -118,22 +144,34 @@ export const Footer = () => {
                 <h3 className="mb-6 text-2xl font-bold text-white">Company</h3>
                 <ul>
                   <li className="mb-4">
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
+                    <a
+                      className="text-gray-400 hover:text-gray-300"
+                      href="#"
+                      aria-label="">
                       About Us
                     </a>
                   </li>
                   <li className="mb-4">
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
+                    <a
+                      className="text-gray-400 hover:text-gray-300"
+                      href="#"
+                      aria-label="">
                       Jobs
                     </a>
                   </li>
                   <li className="mb-4">
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
+                    <a
+                      className="text-gray-400 hover:text-gray-300"
+                      href="#"
+                      aria-label="">
                       Press
                     </a>
                   </li>
                   <li>
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
+                    <a
+                      className="text-gray-400 hover:text-gray-300"
+                      href="#"
+                      aria-label="">
                       Contact Us
                     </a>
                   </li>
@@ -142,7 +180,7 @@ export const Footer = () => {
             </div>
           </div>
           <p className="lg:text-center text-sm text-gray-400 border-t border-[rgb(255,255,255,0.2)] pt-12 mt-16 hidden lg:block">
-            &copy; 2022. MIT license.
+            PeregrinePixels &copy; 2023. All rights reserved.
           </p>
         </div>
       </div>
