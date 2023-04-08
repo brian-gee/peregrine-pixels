@@ -1,7 +1,7 @@
-import { FacebookIcon } from '../assets/icons/FacebookIcon';
-import { InstagramIcon } from '../assets/icons/InstagramIcon';
-import { TailcastLogo } from '../assets/logos/TailcastLogo';
-import { TwitterIcon } from '../assets/icons/TwitterIcon';
+import { FacebookIcon } from "../assets/icons/FacebookIcon";
+import { InstagramIcon } from "../assets/icons/InstagramIcon";
+import { TailcastLogo } from "../assets/logos/TailcastLogo";
+import { TwitterIcon } from "../assets/icons/TwitterIcon";
 
 export const Footer = () => {
   return (
@@ -25,24 +25,28 @@ export const Footer = () => {
                   href="https://bootstrapious.com/p/bootstrap-4-dark-admin"
                   target="_blank"
                   className="text-gray-100 ml-1.5 "
-                  aria-label="DarkAdmin">
+                  aria-label="DarkAdmin"
+                >
                   here.
                 </a>
               </p>
               <div className="w-36 mx-auto lg:mx-0">
                 <a
                   className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
-                  href="#">
+                  href="#"
+                >
                   <FacebookIcon />
                 </a>
                 <a
                   className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
-                  href="#">
+                  href="#"
+                >
                   <TwitterIcon />
                 </a>
                 <a
                   className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
-                  href="#">
+                  href="#"
+                >
                   <InstagramIcon />
                 </a>
               </div>
@@ -55,7 +59,8 @@ export const Footer = () => {
                     <a
                       className="text-gray-400 hover:text-gray-300"
                       href="#"
-                      aria-label="">
+                      aria-label=""
+                    >
                       Services
                     </a>
                   </li>
@@ -63,7 +68,8 @@ export const Footer = () => {
                     <a
                       className="text-gray-400 hover:text-gray-300"
                       href="#"
-                      aria-label="">
+                      aria-label=""
+                    >
                       About Us
                     </a>
                   </li>
@@ -71,7 +77,8 @@ export const Footer = () => {
                     <a
                       className="text-gray-400 hover:text-gray-300"
                       href="#"
-                      aria-label="">
+                      aria-label=""
+                    >
                       News and Stories
                     </a>
                   </li>
@@ -79,7 +86,8 @@ export const Footer = () => {
                     <a
                       className="text-gray-400 hover:text-gray-300"
                       href="#"
-                      aria-label="">
+                      aria-label=""
+                    >
                       Roadmap
                     </a>
                   </li>
@@ -94,7 +102,8 @@ export const Footer = () => {
                     <a
                       className="text-gray-400 hover:text-gray-300"
                       href="#"
-                      aria-label="">
+                      aria-label=""
+                    >
                       Organization Team
                     </a>
                   </li>
@@ -102,7 +111,8 @@ export const Footer = () => {
                     <a
                       className="text-gray-400 hover:text-gray-300"
                       href="#"
-                      aria-label="">
+                      aria-label=""
+                    >
                       Our Journeys
                     </a>
                   </li>
@@ -110,7 +120,8 @@ export const Footer = () => {
                     <a
                       className="text-gray-400 hover:text-gray-300"
                       href="#"
-                      aria-label="">
+                      aria-label=""
+                    >
                       Pricing Plans
                     </a>
                   </li>
@@ -118,7 +129,8 @@ export const Footer = () => {
                     <a
                       className="text-gray-400 hover:text-gray-300"
                       href="#"
-                      aria-label="">
+                      aria-label=""
+                    >
                       Roadmap
                     </a>
                   </li>
@@ -126,7 +138,8 @@ export const Footer = () => {
                     <a
                       className="text-gray-400 hover:text-gray-300"
                       href="#"
-                      aria-label="">
+                      aria-label=""
+                    >
                       Terms &amp; Conditions
                     </a>
                   </li>
@@ -134,7 +147,8 @@ export const Footer = () => {
                     <a
                       className="text-gray-400 hover:text-gray-300"
                       href="#"
-                      aria-label="">
+                      aria-label=""
+                    >
                       Privacy Policy
                     </a>
                   </li>
@@ -147,7 +161,8 @@ export const Footer = () => {
                     <a
                       className="text-gray-400 hover:text-gray-300"
                       href="#"
-                      aria-label="">
+                      aria-label=""
+                    >
                       About Us
                     </a>
                   </li>
@@ -155,7 +170,8 @@ export const Footer = () => {
                     <a
                       className="text-gray-400 hover:text-gray-300"
                       href="#"
-                      aria-label="">
+                      aria-label=""
+                    >
                       Jobs
                     </a>
                   </li>
@@ -163,7 +179,8 @@ export const Footer = () => {
                     <a
                       className="text-gray-400 hover:text-gray-300"
                       href="#"
-                      aria-label="">
+                      aria-label=""
+                    >
                       Press
                     </a>
                   </li>
@@ -171,7 +188,8 @@ export const Footer = () => {
                     <a
                       className="text-gray-400 hover:text-gray-300"
                       href="#"
-                      aria-label="">
+                      aria-label=""
+                    >
                       Contact Us
                     </a>
                   </li>
