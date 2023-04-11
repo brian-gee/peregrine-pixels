@@ -57,12 +57,11 @@ export const Navbar = () => {
           exit={{ opacity: 0 }}>
           <div className="grow basis-0 justify-end hidden lg:flex">
             <a
-              className="text-white custom-border-gray rounded-xl
-           bg-customDarkBg2 hover:bg-customDarkBg3  border-gray-700 pl-6 pr-8 pt-2 pb-2 text-sm flex"
+              className="custom-button-colored rounded-xl
+            pl-6 pr-8 pt-2 pb-2 text-sm flex"
               href="https://github.com/matt765/Tidestream"
               target="_blank"
               aria-label="source code">
-              <GithubIcon />
               <span className="pt-px">Contact Us</span>
             </a>
           </div>
@@ -102,7 +101,6 @@ export const Navbar = () => {
            bg-customDarkBg2 hover:bg-customDarkBg3  border-gray-700 pl-6 pr-8 pt-2 pb-2 text-sm flex"
                 href="https://github.com/matt765/Tidestream"
                 target="_blank">
-                <GithubIcon />
                 Contact Us
               </a>
             </div>
