@@ -1,30 +1,30 @@
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 
-import { QuoteIcon } from "../assets/icons/QuoteIcon";
-import testimonial1 from "../assets/images/testimonial1.png";
-import testimonial2 from "../assets/images/testimonial2.png";
-import testimonial3 from "../assets/images/testimonial3.png";
+import { QuoteIcon } from '../assets/icons/QuoteIcon';
+import testimonial1 from '../assets/images/testimonial1.png';
+import testimonial2 from '../assets/images/testimonial2.png';
+import testimonial3 from '../assets/images/testimonial3.png';
 
 const testimonialsData = [
   {
-    customerName: "John Watkins",
-    customerTitle: "Founder of Dashflow",
+    customerName: 'John Watkins',
+    customerTitle: 'Founder of Dashflow',
     content:
-      "Lorem ipsum dolor sit amet, consecte adipiscing elit. Phasellus pulvinar urna quis tempor gravida. Sed commodo bibendum orci, sed tincidunt lectus dignissim vel. Sed et maximus odio, eu ultrices magna. Etiam finibus tempor eu nunc vitae tristique. Cras mattis sapien. Etiam finibus gravida.",
+      'Lorem ipsum dolor sit amet, consecte adipiscing elit. Phasellus pulvinar urna quis tempor gravida. Sed commodo bibendum orci, sed tincidunt lectus dignissim vel. Sed et maximus odio, eu ultrices magna. Etiam finibus tempor eu nunc vitae tristique. Cras mattis sapien. Etiam finibus gravida.',
     image: testimonial1,
   },
   {
-    customerName: "John Watkins",
-    customerTitle: "Founder of Dashflow",
+    customerName: 'John Watkins',
+    customerTitle: 'Founder of Dashflow',
     content:
-      "Lorem ipsum dolor sit amet, consecte adipiscing elit. Phasellus pulvinar urna quis tempor gravida. Sed commodo bibendum orci, sed tincidunt lectus dignissim vel. Sed et maximus odio, eu ultrices magna. Etiam finibus tempor eu nunc vitae tristique. Cras mattis sapien. Etiam finibus gravida.",
+      'Lorem ipsum dolor sit amet, consecte adipiscing elit. Phasellus pulvinar urna quis tempor gravida. Sed commodo bibendum orci, sed tincidunt lectus dignissim vel. Sed et maximus odio, eu ultrices magna. Etiam finibus tempor eu nunc vitae tristique. Cras mattis sapien. Etiam finibus gravida.',
     image: testimonial2,
   },
   {
-    customerName: "John Watkins",
-    customerTitle: "Founder of Dashflow",
+    customerName: 'John Watkins',
+    customerTitle: 'Founder of Dashflow',
     content:
-      "Lorem ipsum dolor sit amet, consecte adipiscing elit. Phasellus pulvinar urna quis tempor gravida. Sed commodo bibendum orci, sed tincidunt lectus dignissim vel. Sed et maximus odio, eu ultrices magna. Etiam finibus tempor eu nunc vitae tristique. Cras mattis sapien. Etiam finibus gravida.",
+      'Lorem ipsum dolor sit amet, consecte adipiscing elit. Phasellus pulvinar urna quis tempor gravida. Sed commodo bibendum orci, sed tincidunt lectus dignissim vel. Sed et maximus odio, eu ultrices magna. Etiam finibus tempor eu nunc vitae tristique. Cras mattis sapien. Etiam finibus gravida.',
     image: testimonial3,
   },
 ];
@@ -37,21 +37,19 @@ export const Testimonials = () => (
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
-        transition={{ duration: 0.4, delay: 0.3 }}
-      >
+        transition={{ duration: 0.4, delay: 0.3 }}>
         <div className="custom-block-subtitle text-center mb-6">
           Lorem Ipsum
         </div>
         <div className="custom-block-big-title text-center mb-16 px-8 sm:px-24 md:px-48">
-          People like you love Tailcast
+          People like you love Peregrine Pixels
         </div>
 
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-5 xl:gap-10 px-6 xl:px-0 items-center">
           {testimonialsData.map((testimonial, index) => (
             <div
               className="w-11/12 sm:w-4/5 md:w-[560px] lg:w-1/3 custom-border-gray-darker rounded-xl bg-customDarkBg3 flex flex-col px-6 py-4"
-              key={`${testimonial.customerName}-${index}`}
-            >
+              key={`${testimonial.customerName}-${index}`}>
               <div className="flex mb-2">
                 <QuoteIcon />
               </div>
