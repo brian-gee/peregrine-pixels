@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 
 import { InvitationModal } from './InvitationModal';
 import dashboard from '../assets/images/dashboard.jpg';
+import flaviasSweets from '../assets/images/flavias-sweets.jpg';
 
 export const Hero = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -67,7 +68,7 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.15 }}>
           <div className="relative w-screen flex justify-center ">
             <img
-              src={dashboard}
+              src={flaviasSweets}
               alt="123"
               className="w-4/5 2xl:w-[1200px] mx-auto absolute z-10 rounded-xl  custom-border-gray hero-dashboard-border-gradient lg:top-6 xl:top-0"
             />
