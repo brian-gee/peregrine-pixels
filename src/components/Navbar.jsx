@@ -38,7 +38,7 @@ export const Navbar = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.3 }}
           exit={{ opacity: 0 }}>
-          <div className="hidden lg:flex h-full pl-12 pb-2">
+          <div className="hidden lg:flex h-full pl- pb-2">
             {navbarLinks.map(({ href, label, ariaLabel }) => (
               <a
                 className="navbar-link"
@@ -59,7 +59,7 @@ export const Navbar = () => {
             <a
               className="custom-button-colored rounded-xl
             pl-6 pr-8 pt-2 pb-2 text-sm flex"
-              href="https://github.com/matt765/Tidestream"
+              href=""
               target="_blank"
               aria-label="source code">
               <span className="pt-px">Contact Us</span>
