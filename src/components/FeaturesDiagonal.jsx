@@ -1,8 +1,8 @@
-import { motion } from "framer-motion";
-import { useState } from "react";
+import { motion } from 'framer-motion';
+import { useState } from 'react';
 
-import { InvitationModal } from "./InvitationModal";
-import featuresdiagonal from "../assets/images/featuresdiagonal.jpg";
+import { InvitationModal } from './InvitationModal';
+import featuresdiagonal from '../assets/images/featuresdiagonal.jpg';
 
 export const FeaturesDiagonal = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -15,20 +15,17 @@ export const FeaturesDiagonal = () => {
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1200 120"
           preserveAspectRatio="none"
-          className="custom-bg-dark2"
-        >
+          className="custom-bg-dark2">
           <path
             d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
-            className="custom-bg-dark1"
-          ></path>
+            className="custom-bg-dark1"></path>
         </svg>
       </div>
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
-        transition={{ duration: 0.5, delay: 0.2 }}
-      >
+        transition={{ duration: 0.5, delay: 0.2 }}>
         <div className=" 2xl:w-[1150px] xl:w-[1050px]  md:w-4/5 flex justify-center bg-customDarkBg1 pt-12 lg:pt-24 pb-8 lg:pb-20 mx-auto lg:flex-row flex-col">
           <div className="w-3/4 lg:w-1/2 flex flex-col lg:mx-unset mx-auto">
             <span className="custom-block-subtitle">
@@ -43,10 +40,16 @@ export const FeaturesDiagonal = () => {
               dolor sit amet, consectetur adipiscing elit.
             </p>
             <div
-              className="w-[210px] h-12 custom-button-colored mr-10 "
-              onClick={() => setIsModalOpen(true)}
-            >
-              Get Started
+              className="custom-button-colored w-64 sm:w-52 h-12 mr-0 sm:mr-4 lg:mr-6 mb-2 sm:mb-0"
+              onClick={() => setIsModalOpen(true)}>
+              <a
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault();
+                  setIsModalOpen(true);
+                }}>
+                Get Started
+              </a>
             </div>
           </div>
           <div className="w-4/5 lg:w-1/2 lg:pl-16 flex justify-center mx-auto pt-16 lg:pt-0">
@@ -64,12 +67,10 @@ export const FeaturesDiagonal = () => {
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1200 120"
           preserveAspectRatio="none"
-          className="custom-bg-dark2"
-        >
+          className="custom-bg-dark2">
           <path
             d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
-            className="custom-bg-dark1"
-          ></path>
+            className="custom-bg-dark1"></path>
         </svg>
       </div>
       {isModalOpen && (

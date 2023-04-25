@@ -64,9 +64,16 @@ export const Pricing = () => {
                     ))}
                   </ul>
                   <div
-                    className="inline-block text-center py-2 px-4 w-full rounded-xl rounded-t-xl custom-button-colored font-bold leading-loose mt-16"
+                    className="custom-button-colored w-64 sm:w-52 h-12 mr-0 sm:mr-4 lg:mr-6 mb-2 sm:mb-0"
                     onClick={() => setIsModalOpen(true)}>
-                    Get Started
+                    <a
+                      href="#"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        setIsModalOpen(true);
+                      }}>
+                      Get Started
+                    </a>
                   </div>
                 </div>
               </div>
@@ -92,9 +99,16 @@ export const Pricing = () => {
                     ))}
                   </ul>
                   <div
-                    className="inline-block text-center py-2 px-4 w-full custom-button-colored leading-loose transition duration-200 mt-20"
+                    className="custom-button-colored w-64 sm:w-52 h-12 mr-0 sm:mr-4 lg:mr-6 mb-2 sm:mb-0"
                     onClick={() => setIsModalOpen(true)}>
-                    Get Started
+                    <a
+                      href="#"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        setIsModalOpen(true);
+                      }}>
+                      Get Started
+                    </a>
                   </div>
                 </div>
               </div>
@@ -120,9 +134,16 @@ export const Pricing = () => {
                     ))}
                   </ul>
                   <div
-                    className="inline-block text-center py-2 px-4 w-full rounded-xl rounded-t-xl custom-button-colored font-bold leading-loose mt-16"
+                    className="custom-button-colored w-64 sm:w-52 h-12 mr-0 sm:mr-4 lg:mr-6 mb-2 sm:mb-0"
                     onClick={() => setIsModalOpen(true)}>
-                    Get Started
+                    <a
+                      href="#"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        setIsModalOpen(true);
+                      }}>
+                      Get Started
+                    </a>
                   </div>
                 </div>
               </div>
