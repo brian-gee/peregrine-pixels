@@ -1,4 +1,5 @@
 ---
+import { SEO } from 'astro-seo';
 import '@fontsource/inter';
 import '@fontsource/inter/500.css';
 import '@fontsource/inter/600.css';
@@ -16,13 +17,29 @@ const { title } = Astro.props;
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <SEO
+      title="Peregrine Pixels - Expert Web Designer for Fast & Functional Websites"
+      description="Welcome to Peregrine Pixels (https://peregrinepixels.com), the home of expert web design services tailored to meet your unique business needs. As a leading web designer, we specialize in creating fast and functional websites that not only captivate your target audience but also drive significant growth for your online presence.
+
+      At Peregrine Pixels, we understand the importance of a seamless user experience, and our dedication to speed and performance ensures your website is designed for optimal functionality. Our agile approach to web design guarantees your site is fully responsive across all devices, enabling you to engage with a broader audience and leave a lasting impression.
+      
+      Our comprehensive web design services at Peregrine Pixels include:
+      
+      Custom Website Design - Your brand's unique identity comes alive with our tailored web designs, crafted to reflect your vision and goals.
+      E-commerce Solutions - Boost your online sales with a user-friendly and secure e-commerce platform, designed to maximize conversions and customer satisfaction.
+      Responsive Web Design - Reach your audience across all devices with a fully responsive website that adapts to any screen size and ensures a seamless user experience.
+      Search Engine Optimization (SEO) - Improve your website's visibility on search engines with our expert SEO strategies, driving organic traffic and increasing brand exposure.
+      At Peregrine Pixels, we pride ourselves on delivering exceptional web design services that transform your online presence. Our team of skilled web designers is committed to understanding your unique goals and crafting a website that exceeds your expectations.
+      
+      Experience the Peregrine Pixels difference for yourself - visit https://peregrinepixels.com to get started on your journey to a fast and functional website that sets you apart from the competition."
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon-light.svg" />
     <meta name="generator" content={Astro.generator} />
     <meta
       name="description"
-      content="Peregrine Pixels is a modern, fast, and precise we development studio."
+      content="Discover Peregrine Pixels, your go-to web designer for lightning-fast, fully functional websites tailored to your needs. Visit https://peregrinepixels.com to elevate your online presence today!"
     />
     <title>{title}</title>
   </head>

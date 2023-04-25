@@ -10,6 +10,9 @@ dependencies:
   astro:
     specifier: ^2.2.0
     version: 2.2.0
+  astro-seo:
+    specifier: ^0.7.2
+    version: 0.7.2
   framer-motion:
     specifier: ^10.11.2
     version: 10.11.2(react-dom@18.2.0)(react@18.2.0)
@@ -1036,6 +1039,10 @@ packages:
   /array-union@2.1.0:
     resolution: {integrity: sha512-HGyxoOTYUyCM6stUe6EJgnd4EoewAI7zMdfqO+kGjnlZmBDz/cR5pf8r/cR4Wq60sL/p0IkcjUEEPwS3GFrIyw==}
     engines: {node: '>=8'}
+    dev: false
+
+  /astro-seo@0.7.2:
+    resolution: {integrity: sha512-YnSqj4E6vbF7wRk3gcxOPHBjenhfgaINEJlTsnu4sovAyfyGEdQksbioYKoZ+vERRDaYvEricfSzC6fc9lieww==}
     dev: false
 
   /astro@2.2.0:
