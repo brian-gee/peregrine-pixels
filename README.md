@@ -1,39 +1,16 @@
-# Tailcast
+# Peregrine Pixels
 
-Dark themed website template built on AstroJS, designed for technological startup business.
+Welcome to the Peregrine Pixels repository! Peregrine Pixels is a web design agency that specializes in creating fast, functional, and visually appealing websites tailored to your unique business needs.
 
-## Tech stack:
+## Services
 
-Astro, React, Tailwind, Framer Motion
+At Peregrine Pixels, we offer a range of comprehensive web design services, including:
 
-## Live link
+- Custom Website Design: Bring your brand's unique identity to life with our tailored web designs, crafted to reflect your vision and goals.
+- E-commerce Solutions: Boost your online sales with a user-friendly and secure e-commerce platform, designed to maximize conversions and customer satisfaction.
+- Responsive Web Design: Reach your audience across all devices with a fully responsive website that adapts to any screen size and ensures a seamless user experience.
+- Search Engine Optimization (SEO): Improve your website's visibility on search engines with our expert SEO strategies, driving organic traffic and increasing brand exposure.
 
-[https://tailcast.vercel.app/](https://tailcast.vercel.app/)
+## Contact Us
 
-## Project Structure
-
-```
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── assets
-│   │   ├── icons
-│   │   ├── images
-│   │   └── logos
-│   ├── components
-│   ├── layouts
-│   ├──  pages
-│   └── styles
-└── package.json
-```
-
-## How to run
-
-All commands are run from the root of the project, from a terminal:
-
-| Command           | Action                                       |
-| :---------------- | :------------------------------------------- |
-| `npm install`     | Installs dependencies                        |
-| `npm run dev`     | Starts local dev server at `localhost:3000`  |
-| `npm run build`   | Build your production site to `./dist/`      |
-| `npm run preview` | Preview your build locally, before deploying |
+Visit our website at [https://peregrinepixels.com](https://peregrinepixels.com) to learn more about our services and get in touch with our team of skilled web designers. Let us help you create a fast and functional website that sets you apart from the competition.
