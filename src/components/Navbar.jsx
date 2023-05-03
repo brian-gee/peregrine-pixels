@@ -16,29 +16,35 @@ export const Navbar = () => {
 
   return (
     <nav className="w-full h-20 flex flex-col justify-center items-center fixed bg-customDarkBg1 lg:bg-customDarkBgTransparent z-40 lg:backdrop-blur-xl">
-      <div className="flex justify-between w-full items-center relative">
+      <div className="flex w-full items-center relative">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.3 }}
           exit={{ opacity: 0 }}>
-          <a className="navbar-link" href="#home" aria-label="Home">
-            <div className="flex justify-start items-center grow basis-0">
-              <div className="text-white mr-2 text-6xl">
+          <a className="navbar-link" href="#home" aria-label="Home">            
+              <div className="text-white text-6xl">
                 <PeregrinePixelsLogo />
               </div>
-              <div className="text-white font-['Inter'] font-bold text-xl ml-[1.7rem]">
-                Peregrine Pixels
-              </div>
-            </div>
           </a>
         </motion.div>
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.3 }}
-          exit={{ opacity: 0 }}>
-          <div className="hidden lg:flex h-full mr-[7.5rem] xl:mr-[8.8rem]">
+          exit={{ opacity: 0 }}
+          className='flex-grow flex items-center justify-center lg:justify-start'>
+          <div className="text-white font-['Inter'] font-bold text-xl mr-5">
+            Peregrine Pixels
+          </div>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.3 }}
+          exit={{ opacity: 0 }}
+          className='flex-grow-0'>
+          <div className="hidden lg:flex h-full">
             {navbarLinks.map(({ href, label, ariaLabel }) => (
               <a
                 className="navbar-link"
@@ -57,7 +63,7 @@ export const Navbar = () => {
           exit={{ opacity: 0 }}>
           <div className="grow basis-0 justify-end hidden lg:flex">
             <a
-              className="custom-button-colored rounded-xl px-6 py-2 text-sm flex mr-8"
+              className="navbar-link"
               href=""
               target="_blank"
               aria-label="source code">
