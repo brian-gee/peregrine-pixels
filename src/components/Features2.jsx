@@ -38,27 +38,28 @@ export const Features2 = () => (
               Dolor sit amet consectutar
             </span>
             <h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-big-title">
-              Issue tracking you’ll enjoy using
+              Grow your business with our help
             </h2>
             <p className="mb-12 text-customGrayText leading-loose">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Pellentesque efficitur nisl sodales egestas lobortis. Lorem ipsum
-              dolor sit amet, consectetur adipiscing elit.
+              Navigating online success is tough, but you don’t have to do it
+              alone. At Peregrine Pixels, we craft custom websites that reflect
+              your brand and drive results. Start with a free consultation
+              today!
             </p>
-            <ul className="mb-6 text-white">
-              <li className="mb-4 flex">
-                <CheckArrowIcon />
-                <span>Vestibulum viverra</span>
-              </li>
-              <li className="mb-4 flex">
-                <CheckArrowIcon />
-                <span>Morbi mollis metus pretium</span>
-              </li>
-              <li className="mb-4 flex">
-                <CheckArrowIcon />
-                <span>Etiam lectus nunc, commodo</span>
-              </li>
-            </ul>
+            {/* <ul className="mb-6 text-white"> */}
+            {/*   <li className="mb-4 flex"> */}
+            {/*     <CheckArrowIcon /> */}
+            {/*     <span>Vestibulum viverra</span> */}
+            {/*   </li> */}
+            {/*   <li className="mb-4 flex"> */}
+            {/*     <CheckArrowIcon /> */}
+            {/*     <span>Morbi mollis metus pretium</span> */}
+            {/*   </li> */}
+            {/*   <li className="mb-4 flex"> */}
+            {/*     <CheckArrowIcon /> */}
+            {/*     <span>Etiam lectus nunc, commodo</span> */}
+            {/*   </li> */}
+            {/* </ul> */}
           </div>
         </div>
       </div>

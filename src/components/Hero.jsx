@@ -19,7 +19,7 @@ export const Hero = () => {
           transition={{ duration: 0.5 }}
         >
           <div className="text-customSecondary text-sm sm:text-base  mb-6 sm:mt-32 mt-16  font-bold">
-            Discover even more opportunities
+            Unlock New Opportunities for Your Business
           </div>
         </motion.div>
         <motion.div
@@ -37,7 +37,7 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.1 }}
         >
           <div className="text-customGrayText text-sm lg:text-base xl:text-lg sm:text-base mt-10 px-12 sm:px-48 ">
-            Transforming ideas into reality.
+            Turning Your Vision into a Successful Online Solution
           </div>
         </motion.div>
         <motion.div
